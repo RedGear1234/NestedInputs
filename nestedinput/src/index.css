@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+}
+
+select {
+  position: relative;
+  display: inline-block;
+  user-select: none;
+  cursor: pointer;
+  padding: 10px 105px 10px 25px;
+  min-width: 130px;
+  margin: 1rem 0rem;
+  font-weight: 100;
+  line-height: 50px;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+input {
+  width: 130px;
+  height: 41.5px;
+  outline: none;
+  padding-left: 20px;
+  margin-right: 1rem;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
+
+input:focus {
+  transform: translateX(0%);
+  border-bottom: 3px solid #5fa8d3;
+  bottom: -1px;
+  left: 0px;
+  font-size: 14px;
+}
+
+.addarg {
+  border: none;
+  padding: 12px;
+  background-color: rgb(8, 65, 88);
+  color: white;
+  font-size: larger;
+  transition: all 0.2s ease-in-out;
+}
+
+.addarg:hover::after {
+  content: " Add Argument";
+}
+
+.reset {
+  margin-left: 1rem;
+  border: none;
+  padding: 12px;
+  background-color: tomato;
+  color: white;
+}
+
+.main-div {
+  padding: 1rem;
+  background-color: rgb(123, 255, 0);
+  width: fit-content;
+  margin: 2rem 0rem;
+  box-shadow: 5px 5px white;
+  transition: all 2ms ease-in-out;
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+}
+
+#resultDiv {
+  color: white;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: green;
+  box-shadow: 5px 5px white;
+}
+
+.addop{
+  border: none;
+  padding: 12px;
+  background-color: rgb(120, 120, 0);
+  color: white;
+  font-size: larger;
+  transition: all 0.2s ease-in-out;
+}
+
+.addop:hover::after{
+    content: " Add OP";
+}
